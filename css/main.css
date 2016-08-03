@@ -1,0 +1,98 @@
+*{
+	box-sizing: content-box;
+}
+/*estilos del menu*/
+nav, a{
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	margin-left: 50px;
+	margin-top:10px;
+}
+nav,a:hover{
+	color:#A901DB;
+}
+.cabeza{
+	height: 40px;
+}
+/*estilos de la 1 seccion*/
+.seccion1{
+	background-image: url("../images/background.jpg");
+	height: 520px;
+}
+.logo{
+	width: 8%;
+	height: 50px;
+	margin-top: 10%;
+	margin-left: 46%;
+}
+.centrar{
+	text-align: center;
+}
+.titular1{
+	font-size: 40px;
+	color:white;
+}
+.titular2{
+	font-size: 30px;
+	color:white;
+}
+/*estilos de la seccion 2*/
+.seccion2{
+	background-image: url("../images/tile1.png");
+	height: 350px;
+}
+.foto{
+	width: 45%;
+	height: 200px;
+	padding:1%;
+	margin-top:21%;
+	margin-left: 30%;
+	border:2px solid grey;
+}
+.acerca{
+	padding-top: 3%;
+	padding-left: 20%;
+	font-size: 20px;
+	
+
+}
+.parrafo{
+	margin-top: 5%;
+	margin-left: -10%;
+	padding-right: 13%;
+	font-family: "Oswald";
+}
+.morado{
+	color:#A901DB;
+	font-size:20px;
+}
+.frase{
+	margin-top: 4%;
+	margin-bottom: 1%;
+}
+.gato{
+	width: 80%;
+	border:3px solid #A901DB;
+	border-radius:100%;
+	padding: 2%;
+	margin-top: 10%;
+}
+/*estilos del footer*/
+.pie{
+	background-image: url("../images/tile2.png");
+	height: 250px;
+	margin-top: 5%;
+}
+.enlaces{
+	width: 50%;
+	margin: 0 auto;
+	margin-top:3%;
+
+}
+.twitter{
+	padding-left:50%;
+}
+.facebook{
+padding-left:26%;
+}
